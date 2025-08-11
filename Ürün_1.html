@@ -4,22 +4,24 @@
 <head>
     <title>LOGO</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="css/LOGO.css"">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body style="background: black;color: white ; font-family: 'Lato', sans-serif;">
+<body style="background: black;color: white ; font-family: 'Lato', sans-serif;justify-content: center;display: block;">
 
             
     <img src="resimler/LOGO.jpg" alt="LOGO" width="200">
 
-    <a href="index.html" style="text-decoration: none;color: black  " >
-    <samp style="font-size: 40px;border-radius: 10px;background-color: gray;box-shadow: 0 0px 10px white;border: 2px solid black;">Ana sayfa</samp>
-    </a>
+    <nav>
+        <a href="index.html" style="text-decoration: none;color: black  " >
+           <samp class="button" style="font-size: 40px;">Ana sayfa</samp>
+        </a>
 
-    <a href="index.html" style="text-decoration: none;color: black ;margin-left: 20px; " >
-        <samp style="font-size: 40px;border-radius: 10px;background-color: gray;box-shadow: 0 0px 10px white;border: 2px solid black;">Ürünler</samp>
-    </a>
-
+        <a href="Vitrin.html" style="text-decoration: none;color: black ;margin-left: 20px; " >
+           <samp class="button" style="font-size: 40px;">Ürünler</samp>
+        </a>
+    </nav>
     <hr>
     <h3 style=" text-align: center;">LOGO T-Shirt 1</h3>
 
@@ -39,7 +41,7 @@
     text-align: center;"
     > 
        
-        <img style="margin: 8px;" src="resimler/ürün1.jpg"  alt="Tişört 1" width="500" h>
+        <img class="ürün_detay_resmi" src="resimler/ürün1.jpg"  alt="Tişört 1" >
         
         
         
@@ -53,16 +55,16 @@
     
 
         
-        <a style="text-decoration: none ;margin-left: 30px;" none target="_blank" href="https://www.taktikstore.com/outdoor-t-shirt-basic-pamuklu-erkek-uzun-kollu-tisort-terletmez-sifir-yaka-baseti05?srsltid=AfmBOoq9ZVd33MPj6lBH-g_F6R1k_peRlIl38B4k_aC8w0DT06mfvPA8">
+        <a class="button_link" none target="_blank" href="https://www.taktikstore.com/outdoor-t-shirt-basic-pamuklu-erkek-uzun-kollu-tisort-terletmez-sifir-yaka-baseti05?srsltid=AfmBOoq9ZVd33MPj6lBH-g_F6R1k_peRlIl38B4k_aC8w0DT06mfvPA8">
 
            
-            <samp style="background-color: gray ; font-size: 30px;border-radius: 10px;color: black;box-shadow: 0 0px 50px  white;">Satın al</samp>
+            <samp class="button">Satın al</samp>
         
         
         </a>
 
         <table style="margin: 50px;">
-            <tr align="center" bgcolor="gray" >
+            <tr style="background-color: gray;text-align: center;">
                 <td>BEDEN</td>
                 <td>S</td>
                 <td>M</td>
@@ -70,7 +72,7 @@
                 <td>XL</td>
             </tr>
 
-            <tr align="center" bgcolor="lightgray" style="color:black;"  >
+            <tr  style="color:black;text-align: center;background-color: lightgray;"  >
 
                 <th width="200" >Göğüs Ölçüsü</th>
                 <th width="150">92-96</th>
@@ -122,12 +124,13 @@
 <hr>
 
 
-<div style="height: 200px;display: flex ;flex-wrap: wrap;gap: 250px;">
+<div style="height: 200px;display: flex ;flex-wrap: wrap;gap: 150px;">
     
     <div style=" display:flex;flex-wrap:  wrap;width: 150px;gap: 20px;">
         <img src="resimler/LOGO.jpg" alt="Logo" width="200px "height="70">
-        <a href="index.html" style="text-decoration: none;color: black ;margin-left: 20px; " >
-            <samp style="font-size: 20px;border-radius: 10px;background-color: gray;box-shadow: 0 0px 10px white;border: 2px solid black;">Hakkımızda</samp>
+
+        <a href="about us.html" style="" class="button_link" >
+            <samp class="button" style="font-size: 25px;">Hakkımızda</samp>
         </a>
     </div >
     
@@ -139,13 +142,12 @@
         <samp style="font-size: 30px;
         color:white ;margin-left: 20px;height: 40px;">Bize Ulaşın:</samp>
     
-        <a href="index.html" style="text-decoration: none;color: black ;margin-left: 20px; " >
-            <samp style="font-size: 20px;border-radius: 10px;background-color: gray;
-            box-shadow: 0 0px 10px white;border: 2px solid black;">Telefon:0536 278 96 32</samp>
+        <a href="index.html" class="button_link" >
+            <samp class="button" style="font-size: 20px;">Telefon:0536 278 96 32</samp>
         </a>     
 
-        <a href="index.html" style="text-decoration: none;color: black ;margin-left: 20px; " >
-           <samp style="font-size: 20px;border-radius: 10px;background-color: gray;box-shadow: 0 0px 10px white;border: 2px solid black;">GMAİL:Logo@gmail.com</samp>
+        <a href="index.html" class="button_link" >
+           <samp class="button" style="font-size: 20px;">GMAİL:Logo@gmail.com</samp>
        </a>     
     </div>
 
@@ -159,7 +161,18 @@
         
         </a>     
     </div>
+
+    <div style="text-align: center;position: -webkit-sticky;flex-basis: 100%;padding: 5vh;">
+        2025 LOGO. Tüm hakları saklıdır.
+    </div>
 </div>
+
+</div>
+
+
+
+
+
 
 
     

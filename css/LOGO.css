@@ -1,0 +1,89 @@
+.ürün_kartı{
+    text-decoration: none;
+    display: block;
+    background-color: rgb(47, 46, 46);
+    border-radius: 2cap;
+    display: inline-block;
+    box-shadow: 0 20px 40px white;
+    border: 2px solid  rgb(61, 60, 60);
+    text-align: center; 
+
+}
+
+
+
+.ürün_kartı:hover{
+    box-shadow: 0 20px 60px white;
+   
+}
+.ürün_resmi{
+    margin: 8px;
+    width:250px ;
+    height: 270px;
+    
+    
+    
+    
+    
+}
+
+
+
+@media (max-width: 600px) {
+    .ürün_resmi {
+     width: 90%;
+     height: auto;
+
+    }
+    
+    .ürün_kartı{
+        width: 45%;
+        box-shadow:0 5px 20px white ;
+        height: auto;
+        font-size: 10px;
+    }
+  }
+
+
+
+
+
+.button_link{
+
+text-decoration: none ;
+margin-left: 30px;
+flex-wrap: nowrap;
+
+}
+.button{
+    background-color: gray ;
+    font-size: 30px;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 0px 20px  white;
+    margin: 0px;
+    flex-wrap: nowrap;
+
+}
+.button:hover{
+    box-shadow: 0 0px 50px  white
+    
+}
+
+
+
+.ürün_detay_resmi{
+    margin: 8px;
+    width:500px;
+}
+
+.ürün_detay_resmi:hover{
+    width: 1000px;
+    cursor: pointer;
+  
+}
+
+
+
+
+
