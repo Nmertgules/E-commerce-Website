@@ -1,0 +1,49 @@
+.ürün_kutusu{
+    background-color: gray;
+    border-radius: 2cap;
+    display: inline-block;
+    box-shadow: 0 10px 20px white;
+    border: 2px solid  rgb(61, 60, 60);
+    text-align: center;
+    align-items: center;
+    margin: 2vw;
+}
+
+
+
+.ürün_detay_resmi{
+    margin: 8px;
+    width:500px;
+}
+
+.ürün_detay_container{
+    width: 500px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px){
+    .ürün_kutusu{
+        width: 99%;
+    }
+
+
+    .ürün_detay_resmi{
+        width: 95%;
+
+    }
+
+    .ürün_detay_container{
+        width: 99%;
+    }
+
+    
+}
+
+
+
+
+
+
+
+

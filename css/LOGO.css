@@ -1,48 +1,89 @@
-.ürün_kartı{
-    text-decoration: none;
-    display: block;
-    background-color: rgb(47, 46, 46);
-    border-radius: 2cap;
-    display: inline-block;
-    box-shadow: 0 20px 40px white;
-    border: 2px solid  rgb(61, 60, 60);
-    text-align: center; 
-
-}
-
-
-
-.ürün_kartı:hover{
-    box-shadow: 0 20px 60px white;
+.header_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
    
 }
-.ürün_resmi{
-    margin: 8px;
-    width:250px ;
-    height: 270px;
+
+
+.header_button_link{
+
+text-decoration: none ;
+flex-shrink: 0;
+
+
+
+}
+
+
+.header_button{
+    background-color: gray ;
+    font-size: 40px;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 0px 20px  white;
+    margin: 0px;
+    white-space: nowarp;
+}
+
+.header_button:hover{
+    box-shadow: 0 0px 40px  white;
+}
+
+.header_button:active{
+    box-shadow: 0 0px 0px  white;
+}
+
+.header_button_link-logos{
+
+    text-decoration: none ;
+    margin-left: 2vw;
     
+    }
+
+
+
+@media (max-width: 400px) {
+    .header_button{
+        font-size: 25px !important;
+        
+    }
+}
+  
+
+
+
+.footer_container{
+    height: 200px;
+    display: flex ;
+    flex-wrap: wrap
+    ;gap: 10vw;
     
-    
-    
-    
+}
+
+.footer_columns{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 20px;
+}
+
+.footer_big_text{
+    font-size: 30px ;
+    margin-left: 20px;
+    color: white;
+}
+
+.footer_copyright{
+    text-align: center;
+    position: -webkit-sticky;
+    flex-basis: 100%;
+    padding-bottom:2vh;
+    color: white;
 }
 
 
 
-@media (max-width: 600px) {
-    .ürün_resmi {
-     width: 90%;
-     height: auto;
-
-    }
-    
-    .ürün_kartı{
-        width: 45%;
-        box-shadow:0 5px 20px white ;
-        height: auto;
-        font-size: 10px;
-    }
-  }
 
 
 
@@ -52,7 +93,13 @@
 
 text-decoration: none ;
 margin-left: 30px;
-flex-wrap: nowrap;
+display: inline-flex;
+flex-wrap: wrap;
+
+
+
+
+
 
 }
 .button{
@@ -62,7 +109,11 @@ flex-wrap: nowrap;
     color: black;
     box-shadow: 0 0px 20px  white;
     margin: 0px;
-    flex-wrap: nowrap;
+    
+    
+    
+
+   
 
 }
 .button:hover{
@@ -72,16 +123,14 @@ flex-wrap: nowrap;
 
 
 
-.ürün_detay_resmi{
-    margin: 8px;
-    width:500px;
-}
 
-.ürün_detay_resmi:hover{
-    width: 1000px;
-    cursor: pointer;
-  
-}
+
+
+
+
+
+
+
 
 
 
