@@ -35,6 +35,10 @@
     box-shadow: 0  1.2vw  3.6vw  white;
    
 }
+
+.ürün_kartı:active{
+      box-shadow: 0  0vw  0vw  white;
+}
 .ürün_resmi{
     margin: 8px;
     width:250px ;
@@ -58,12 +62,18 @@
     font-size: 20px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 385px) {
    
    .kart_fiyat{
     font-size: 15px;
 
    }
+
+
+
+  
+   
+   
    
 
     }
@@ -71,31 +81,50 @@
 
 @media (max-width: 660px) {
     .ürün_resmi {
-     width: 90%;
+    width: 90%;
      height: auto;
+     
 
     }
     
     .ürün_kartı{
         width: 45%;
-        box-shadow:0 5px 20px white ;
         height: auto;
         font-size: 10px;
+        box-shadow: 0  0.7vw  2.1vw  white;
+     
     }
+    
+    
+    
+    
+    
   }
 
 
   @media (min-width: 1650px) {
     .ürün_resmi {
-     width: 90%;
-     height: auto;
+        width: 15vw;
+        height: 16vw;
+    
+    
+ 
 
     }
     
     .ürün_kartı{
-        width: 20%;
-        box-shadow:0 5px 20px white ;
-        height: auto;
+       
+        padding: 0.1vw;
+        border-radius:1.5vw ;
         font-size: 10px;
     }
+    .kart_ismi{
+        font-size: 1.2vw;
+    }
+
+    .kart_fiyat{
+        font-size: 1.2vw;
+    }
+
+
   }

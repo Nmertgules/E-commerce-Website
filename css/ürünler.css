@@ -22,7 +22,16 @@
     flex-wrap: wrap;
 }
 
-@media (max-width: 600px){
+
+
+.buy_container{
+    font-size: 30px;
+}
+.ürün_detay_başlık{
+    text-align: center;
+}
+
+@media (max-width: 650px){
     .ürün_kutusu{
         width: 99%;
     }
@@ -41,7 +50,23 @@
 }
 
 
+@media (min-width:1650px) {
+    .ürün_detay_resmi{
+        width: 30vw;
+    }
+    .ürün_detay_container{
+        width: 30vw;
+        font-size: 1vw;
+    }
 
+    .buy_container{
+        font-size: 2vw;
+    }
+
+    .ürün_detay_başlık{
+        font-size: 2.5vw;
+    }
+}
 
 
 
