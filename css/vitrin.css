@@ -37,7 +37,7 @@
 }
 
 .ürün_kartı:active{
-      box-shadow: 0  0vw  0vw  white;
+      box-shadow: 0  1.2vw  3.6vw  white;
 }
 .ürün_resmi{
     margin: 8px;
@@ -92,7 +92,11 @@
         height: auto;
         font-size: 10px;
         box-shadow: 0  0.7vw  2.1vw  white;
+
      
+    }
+    .vitrin_container{
+        margin: 2vw;
     }
     
     
@@ -106,6 +110,7 @@
     .ürün_resmi {
         width: 15vw;
         height: 16vw;
+        
     
     
  
