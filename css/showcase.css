@@ -1,10 +1,10 @@
-.body{
+body{
     background-color:black;
     font-family:'Lato', sans-serif;
 }
 
 
-.vitrin_container{
+.showcase_container{
     justify-content: center;
     display: flex ;
     flex-wrap: wrap;
@@ -16,7 +16,7 @@
 
 
 
-.ürün_kartı{
+.product_card{
     
     text-decoration: none;
     display: block;
@@ -31,15 +31,15 @@
 
 
 
-.ürün_kartı:hover{
+.product_card:hover{
     box-shadow: 0  1.2vw  3.6vw  white;
    
 }
 
-.ürün_kartı:active{
+.product_card:active{
       box-shadow: 0  1.2vw  3.6vw  white;
 }
-.ürün_resmi{
+.product_img{
     margin: 8px;
     width:250px ;
     height: 270px;
@@ -51,20 +51,20 @@
 }
 
 
-.kart_ismi{
+.card_name{
     color: white;
     text-align: center;
 }
 
 
-.kart_fiyat{
+.card_price{
     color: white;
     font-size: 20px;
 }
 
 @media (max-width: 385px) {
    
-   .kart_fiyat{
+   .card_price{
     font-size: 15px;
 
    }
@@ -80,14 +80,14 @@
 
 
 @media (max-width: 660px) {
-    .ürün_resmi {
+    .product_img{
     width: 90%;
      height: auto;
      
 
     }
     
-    .ürün_kartı{
+    .product_card{
         width: 45%;
         height: auto;
         font-size: 10px;
@@ -95,7 +95,7 @@
 
      
     }
-    .vitrin_container{
+    .showcase_container{
         margin: 2vw;
     }
     
@@ -107,7 +107,7 @@
 
 
   @media (min-width: 1650px) {
-    .ürün_resmi {
+    .product_img {
         width: 15vw;
         height: 16vw;
         
@@ -117,17 +117,17 @@
 
     }
     
-    .ürün_kartı{
+    .product_card{
        
         padding: 0.1vw;
         border-radius:1.5vw ;
         font-size: 10px;
     }
-    .kart_ismi{
+    .card_name{
         font-size: 1.2vw;
     }
 
-    .kart_fiyat{
+    .card_price{
         font-size: 1.2vw;
     }
 

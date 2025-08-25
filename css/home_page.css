@@ -6,7 +6,7 @@
 }
 
 
-.find_identitiy{
+.find_identity{
  background-color: gray ;
  font-size: 3vw;
  border-radius: 10px;
@@ -16,7 +16,7 @@
  
 }
 
-.find_identitiy:hover{
+.find_identity:hover{
      box-shadow: 0 0px 50px  white;
 }
 
@@ -27,7 +27,7 @@
        
     }
 
-    .find_identitiy{
+    .find_identity{
         font-size: 5vw;
     }
 }
