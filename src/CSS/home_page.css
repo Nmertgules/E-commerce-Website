@@ -1,0 +1,40 @@
+.home_page_container{
+    
+    width: 70vw;
+    margin-left: 13.5vw;
+    margin-right: 13.5vw;
+}
+
+
+#up_imgs_container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+.find_identity{
+ background-color: gray ;
+ font-size: 3vw;
+ border-radius: 10px;
+ color: black;
+ box-shadow: 0 0px 20px  white;
+ margin: 0px;
+ 
+}
+
+.find_identity:hover{
+     box-shadow: 0 0px 50px  white;
+}
+
+@media(max-width:1200px){
+    .home_page_container{
+        width: 100%;
+        margin: 0px;
+       
+    }
+
+    .find_identity{
+        font-size: 5vw;
+    }
+}
