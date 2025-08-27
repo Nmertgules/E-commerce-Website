@@ -1,4 +1,4 @@
-.ürün_kutusu{
+.product_box{
     background-color: gray;
     border-radius: 2cap;
     display: inline-block;
@@ -7,16 +7,29 @@
     text-align: center;
     align-items: center;
     margin: 2vw;
+    overflow: hidden;
+    
 }
 
 
 
-.ürün_detay_resmi{
+#product_detail_img{
     margin: 8px;
     width:500px;
 }
 
-.ürün_detay_container{
+.zoom_deatil_img{
+    transition: transform 0.25s ease;
+    transform-origin: center center;
+    cursor: zoom-in;
+}
+
+.zoom_deatil_img.zoom_on{
+    transform: scale(2.4);
+    cursor: zoom-out;
+}
+
+.product_detail_container{
     width: 500px;
     text-align: center;
     flex-wrap: wrap;
@@ -27,22 +40,22 @@
 .buy_container{
     font-size: 30px;
 }
-.ürün_detay_başlık{
+#product_title{
     text-align: center;
 }
 
 @media (max-width: 650px){
-    .ürün_kutusu{
+    .product_box{
         width: 99%;
     }
 
 
-    .ürün_detay_resmi{
+    #product_detail_img{
         width: 95%;
 
     }
 
-    .ürün_detay_container{
+    .product_detail_container{
         width: 99%;
     }
 
@@ -51,10 +64,10 @@
 
 
 @media (min-width:1650px) {
-    .ürün_detay_resmi{
+    #product_detail_img{
         width: 30vw;
     }
-    .ürün_detay_container{
+    .product_detail_container{
         width: 30vw;
         font-size: 1vw;
     }
@@ -63,7 +76,7 @@
         font-size: 2vw;
     }
 
-    .ürün_detay_başlık{
+    #product_title{
         font-size: 2.5vw;
     }
 }
