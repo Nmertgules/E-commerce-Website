@@ -7,7 +7,7 @@ export default function Header(){
     return(
     <div className="header_container">      
 
-    <img src="images/LOGO.jpg" alt="LOGO" width="200"/>
+    <img src="/images/LOGO.jpg" alt="LOGO" width="200"/>
 
     <div >
     <Link to={'/home_page'} className="header_button_link" >

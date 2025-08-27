@@ -11,14 +11,14 @@ export default function Home(){
      
      <div id='up_imgs_container'>
 
-             <img src="images/LOGO.c.jpg" alt="" width="33%"/>
+             <img src="/images/LOGO.c.jpg" alt="" width="33%"/>
              <div style={{width: "34%"}}>
 
-                 <img src="images/LOGO.jpg" alt="" width="100%" />    
+                 <img src="/images/LOGO.jpg" alt="" width="100%" />    
          
              </div>
      
-             <img src="images/LOGO.çanta.jpg" alt="" width="33%" />
+             <img src="/images/LOGO.canta.jpg" alt="" width="33%" />
      
      </div>
      
@@ -29,8 +29,8 @@ export default function Home(){
      </div>
  
      <div style={{display: "flex",gap: "40%",justifyContent: "center"}}>
-         <img src="images/LOGO.etiket_ön.jpg" alt="" width="30%" />
-         <img src="images/LOGO.etiket_arka.jpg" alt="" width="30%" />
+         <img src="/images/LOGO.etiket_on.jpg" alt="" width="30%" />
+         <img src="/images/LOGO.etiket_arka.jpg" alt="" width="30%" />
      
      </div>
  </div>
