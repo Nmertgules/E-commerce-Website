@@ -21,15 +21,15 @@ export default function Footer(){
     
        <span className="footer_big_text">Contact us:</span>
     
-       <a href="" className="button_link" >
+       <Link to={'/home_page'} className="button_link" >
            <span className="button" style={{fontSize:"15px"}}>PHONE :0536 278 96 32</span>
-       </a>     
+       </Link>     
     
     
     
-        <a href="" className="button_link" >
+        <Link to={'/home_page'} className="button_link" >
            <span className="button" style={{fontSize:"15px"}}>GMAİL:Logo@gmail.com</span>
-        </a>     
+        </Link>     
 
  
          
@@ -39,10 +39,10 @@ export default function Footer(){
     
         <samp class="footer_big_text">Follow us:</samp>
                 
-        <a href="" style={{marginLeft:"30px"}} >
+        <Link to={'/home_page'} style={{marginLeft:"30px"}} >
             <img src="images/instegram.jpg" alt="instegram" style={{height: "70px"}}/>
                            
-        </a>     
+        </Link>     
         </div>
 
         <div className="footer_copyright">
